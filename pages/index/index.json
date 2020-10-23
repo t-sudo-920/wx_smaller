@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "tabs":"../../common/tabs/tabs",
+    "meun": "../../common/meuns/meuns"
+  }
+}

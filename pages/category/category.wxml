@@ -1,0 +1,29 @@
+<!--pages/category/category.wxml-->
+<view class="contain">
+  <view class="left">
+     <scroll-view scroll-y="true" style="height: 100vh;">
+        <view class="scroll_top" wx:for="{{categoryData}}" wx:key="id">
+            <view data-index="{{index}}" class="category_title {{index===currentIndex? 'active':''}}" bindtap="handleClick">{{item.name}}</view>
+        </view>
+     </scroll-view>
+</view>
+<view class="right">
+        <scroll-view scroll-y="true" style="height: 100vh;">
+             <view class="cate_list" wx:for="{{meaaageData}}" wx:key="id">
+            
+               <view class="cata_left">
+                  <navigator  url="/pages/goods/goods">
+                      <image mode="widthFix" class="cate_images" src="{{item.url}}"></image>
+                  </navigator>
+               </view>
+               <view class="cata_right">
+                    <view class="cata_title">{{item.name}}</view>
+                    <view class="cata_car">价格:{{item.price}}</view>
+                    <view class="cata_xin">已售:{{item.num}}</view>
+               </view>
+             </view>    
+        </scroll-view>
+        <!-- <view class="iconfont icon-huabanxie"></view>
+        <view class="iconfont icon-icon-test icons"></view> -->
+</view>
+</view>

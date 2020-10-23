@@ -1,0 +1,48 @@
+<!--pages/goods/goods.wxml-->
+<view class="page-section page-section-spacing swiper">
+      <swiper autoplay interval="2000" indicator-dots indicator-color="green" indicator-active-color="red">
+          <swiper-item  wx:for="{{imgData}}" wx:key="id">
+                <navigator url="/pages/swiper/swiper?cid={{item.id}}">
+                  <image src="{{item.path}}"></image>
+                </navigator>
+          </swiper-item>
+      </swiper>
+</view>
+<view class="contain">
+   <view class="good_text">时尚连衣裙，完美体现个人身材，气质</view>
+   <view class="good_title">
+      <view class="good_price">价格:{{price}} <text class="good_text1">9人已买</text></view>
+      <view class="good_show" wx:if="{{!isTure}}" bindtap="handleClick">收藏</view>
+      <view class="good_show active" wx:else="{{isTure}}" bindtap="handleClick">取消收藏</view>
+   </view>
+</view>
+<view class="content">
+     <view class="contact">详情介绍</view>
+     <view class="content_img" wx:for="{{imgUrl}}" wx:key="id">
+         <image class="images_list" src="{{item.url}}"></image>
+     </view>
+</view>
+<view class="shop_cat">
+     <view class="shop_help">
+       <view class="iconfont icon-liaotian"></view>
+       <!-- <view>客服</view> -->
+       <button class="shop_btn" open-type="contact">客服</button>
+     </view>
+     <view class="shop_help">
+        <navigator open-type="switchTab" url="/pages/shop-cart/index">
+            <view class="iconfont icon-qicheqianlian-"></view>
+            <view>购物车</view> 
+        </navigator>
+        
+     </view>
+     <view class="shop_help">
+           <view class="iconfont icon-shoucang"></view>
+           <view>收藏</view>
+     </view>
+     <view class="shop_cats1">
+           <view class="car">加入购物车</view>
+     </view>
+     <view class="shop_cats2">
+           <view class="shopping">立即购买</view>
+     </view>
+</view>

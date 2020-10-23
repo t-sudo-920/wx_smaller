@@ -1,0 +1,33 @@
+/* common/meuns/meuns.wxss */
+.meun{
+  width: 750rpx;
+   display: flex;
+   flex-wrap: wrap;
+}
+.meun_list{
+  width: 750rpx;
+  margin-left: 4rpx;
+  flex: 18%;
+}
+.meun_images{
+  display: inline-block;
+  width: 150rpx;
+  height: 220rpx;
+}
+images{
+  display: inline-block;
+  width: 150rpx;
+  height: 160rpx;
+}
+.meun_text{
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left: 20rpx;
+  width: 150rpx;
+  height: 50rpx;
+}
+.imager_pic{
+  display: inline-block;
+  width: 150rpx;
+  height: 160rpx;
+}

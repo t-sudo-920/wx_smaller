@@ -1,0 +1,118 @@
+/* pages/goods/goods.wxss */
+@import "../../style/iconfont.wxss";
+swiper,swiper-item,image{
+  width: 750rpx;
+  height: 300rpx;
+}
+.contain{
+  width: 750rpx;
+  border: 1px solid #121212;
+}
+.good_text{
+    box-sizing: border-box;
+    padding: 20rpx;
+    width: 750rpx;
+    height: 60rpx;
+}
+.good_title{
+    box-sizing: border-box;
+    padding: 20rpx;
+    display: flex;
+    width: 750rpx;
+    height: 90rpx;
+}
+.good_price{
+  flex: 7;
+}
+.good_show{
+  flex: 3;
+  text-align: center;
+}
+.active{
+   color: red;
+}
+.good_text1{
+   display: inline-block;
+   font-size: 24rpx;
+   color: red;
+   margin-left: 30rpx;
+}
+.content{
+  box-sizing: border-box;
+  padding-bottom: 100rpx;
+  width: 750rpx;
+}
+.contact{
+  font-size: 60rpx;
+  font-weight: 60rpx;
+}
+.content_img{
+  width: 750rpx; 
+  height: 240rpx
+}
+.images_list{
+  width: 750rpx;
+  height: 240rpx
+}
+.shop_cat{
+  position: fixed;
+  display: flex;
+  justify-content: start;
+  bottom: 0rpx;
+  width: 750rpx;
+  height: 120rpx;
+  background: white;
+}
+.shop_help{
+  flex: 1;
+  box-sizing: border-box;
+  padding: 20rpx;
+  padding-top: 30rpx;
+  font-size: 24rpx;
+  text-align: center;
+}
+.shop_cats1{
+  flex: 2;
+  box-sizing: border-box;
+  padding-top: 36rpx;
+  font-size: 24rpx;
+  margin-right: 10rpx;
+
+}
+.shop_cats2{
+  flex: 2;
+  box-sizing: border-box;
+  padding-top: 36rpx;
+  font-size: 24rpx;
+}
+.car{
+  box-sizing: border-box;
+  height: 60rpx;
+  width: 100%;
+  background-color: #FF8F18;
+  padding-left: 30rpx;
+  padding-top: 14rpx;
+}
+.shopping{
+  box-sizing: border-box;
+  height: 60rpx;
+  width: 100%;
+  background-color: #F11A27;
+  padding-left: 30rpx;
+  padding-top: 14rpx;
+}
+.iconfont{
+   text-align: center;
+}
+.shop_btn{
+  width: 80rpx !important;
+  height: 32rpx !important;
+  font-size: 12px !important;
+  padding: 0px;
+  font-weight: 0px !important;
+  color: #414141 !important;
+
+}
+button{
+  position: none;
+}

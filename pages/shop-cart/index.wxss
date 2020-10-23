@@ -1,0 +1,24 @@
+/* pages/shop-cart/index.wxss */
+.address{
+  width: 750rpx;
+  height: 100rpx;
+}
+.address_btn{
+  margin-top: 20rpx;
+}
+.address_ls{
+   width: 750rpx;
+   height: 120rpx;
+   box-sizing: border-box;
+   padding: 20rpx;
+   padding-top: 40rpx;
+   text-align: center;
+}
+.shopping_car{
+  width: 750rpx;
+  height: 300rpx;
+}
+.shopping_iimages{
+  width: 750rpx;
+  height: 300rpx;
+}

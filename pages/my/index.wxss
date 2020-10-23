@@ -1,0 +1,101 @@
+/* pages/my/index.wxss */
+@import "../../style/iconfont.wxss";
+page{
+  background: #f5efef;
+}
+.my_bei{
+  position: relative;
+  width: 750rpx;
+  height: 400rpx;
+}
+.my_image{
+  width: 750rpx;
+  height: 400rpx;
+}
+.my_login{
+  position: absolute;
+  top: 30%;
+  left: 42%;
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+.my_logins{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.my_boxs{
+  width: 750rpx;
+  height: 80rpx;
+  display: flex;
+}
+.my_box_lou{
+  box-sizing: border-box;
+  padding: 20rpx;
+  height: 80rpx;
+  flex: 1;
+  border-left: 1px solid rgb(192, 190, 190);
+  border-bottom: 1px solid rgb(192, 190, 190);
+  text-align: center;
+}
+.my_price{
+  display: flex;
+  justify-content: space-between;
+  width: 750rpx;
+  height: 78rpx;
+  border-bottom: 2px solid rgb(192, 190, 190);
+}
+.my_title{
+    box-sizing: border-box;
+    padding-top: 20rpx;
+    text-align: center;
+}
+.my_tops{
+    box-sizing: border-box;
+    /* padding: 20rpx; */
+    padding-right: 40rpx;
+    padding-top: 10rpx;
+    font-size: 38rpx;
+    font-weight: 18rpx;
+}
+.my_lists{
+  width: 750rpx;
+  height: 120rpx;
+  display: flex;
+  justify-content: start;
+  border: 1px solid rgb(192, 190, 190);
+  border-top: none;
+  font-size: 24rpx;
+}
+.good{
+  width: 750rpx;
+  height: 120rpx;
+   flex: 1;
+}
+.goods{
+   box-sizing: border-box;
+   padding-top: 10rpx;
+   /* flex: 1; */
+   font-size: 58rpx;
+   text-align: center;
+}
+.pool{
+  text-align: center;
+}
+.my_unlogin{
+
+}
+.unmy_title{
+
+}
+.my_btns{
+  box-sizing: border-box;
+  padding-top: 24rpx !important;
+  top: 30%;
+  left: 42%;
+  position: absolute;
+  width: 180rpx !important;
+  height: 80rpx !important;
+  font-size: 24rpx;
+}

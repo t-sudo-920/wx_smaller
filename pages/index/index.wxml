@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+   <view class="page-section page-section-spacing swiper">
+      <swiper autoplay interval="2000" indicator-dots indicator-color="green" indicator-active-color="red">
+          <swiper-item  wx:for="{{imgData}}" wx:key="id">
+                <navigator url="/pages/swiper/swiper?cid={{item.id}}">
+                  <image src="{{item.path}}"></image>
+                </navigator>
+          </swiper-item>
+      </swiper>
+    </view>
+     <tabs></tabs>
+     <meun></meun>
+     <view class="nav_imager">
+        <image class="nav_imagers" src="{{navImg}}"></image>
+     </view>
+     <view class="foolter">
+        <text class="footer_header">噢噢，我是底线的.....</text>
+     </view>
+</view>

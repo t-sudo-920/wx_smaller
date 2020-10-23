@@ -1,0 +1,12 @@
+<!--pages/shop-cart/index.wxml-->
+<view class="shop_cart">
+     <view class="address" wx:if="{{!usersInfo.userName}}">
+       <button class="address_btn" type="primary" plain 
+       bindtap="closeHandleClick">请选择收货地址</button>
+    </view>
+     <view class="address_ls" wx:else><text>收货地址:</text>{{usersInfo.provinceName         +usersInfo.cityName+usersInfo.countyName+usersInfo.detailInfo+usersInfo.userName}}
+  </view>
+    <view class="shopping_car">
+         <image class="shopping_iimages" src="../../images/pic/d.jpg"></image>
+    </view>
+</view>

@@ -1,0 +1,66 @@
+/* pages/category/category.wxss */
+@import "../../style/iconfont.wxss";
+.contain{
+  display: flex;
+}
+.left{
+  width: 160rpx;
+  height: 100vh;
+}
+.right{
+  flex: 1;
+  height: 100vh;
+}
+.scroll_top{
+  width: 160rpx;
+}
+.category_title{
+  width: 160rpx;
+  text-align: center;
+  box-sizing: border-box;
+  padding-left: 16rpx;
+  padding-top: 30rpx;
+}
+.active{
+  color:red;
+}
+
+.icons{
+  font-size: 90rpx;
+}
+.cate_list{
+   box-sizing: border-box;
+   display: flex;
+   width: 100vw - 160rpx;
+   height: 240rpx;
+   /* margin-bottom: 10rpx; */
+   padding: 10rpx;
+}
+.cata_left{
+  flex: 1;
+  height: 240rpx;
+}
+.cate_images{
+  width: 100%;
+  height: 240rpx;
+}
+.cata_right{
+  height: 240rpx;
+}
+.cata_title{
+  box-sizing: border-box;
+  padding-top: 10rpx;
+  text-align: center;
+  font-size: 30rpx;
+}
+.cata_car{
+  box-sizing: border-box;
+  padding-top: 20rpx;
+  font-size: 24rpx;
+  color: red;
+}
+.cata_xin{
+  box-sizing: border-box;
+  padding-top: 30rpx;
+  font-size: 24rpx;
+}

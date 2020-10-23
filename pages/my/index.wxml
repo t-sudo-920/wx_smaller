@@ -1,0 +1,89 @@
+<!--pages/my/index.wxml-->
+<view class="my">
+     <view class="my_bei">
+         <image class="my_image" src="../../images/pic/e.jpg"></image>
+         <view class="my_login" wx:if="{{user_Info.nickName}}">
+         <!-- ../../images/pic/f.jpg -->
+              <image class="my_logins" src="{{user_Info.avatarUrl}}"></image>
+              <view class="my_title">{{user_Info.nickName}}</view>
+         </view>
+         <view class="my_unlogin" wx:else>
+              <view class="unmy_title">
+                  <button class="my_btns" type="primary" plain open-type="getUserInfo"
+                  bindgetuserinfo="getuserInfo">未登录{{user_Info.nickName}}</button>
+              </view>
+         </view>
+     </view>
+     <view class="my_boxs">
+           <view class="my_box_lou">余额 9.0</view>
+           <view class="my_box_lou">冻结</view>
+           <view class="my_box_lou">积分 52</view>
+           <view class="my_box_lou">成长值 87</view>
+     </view>
+     <view class="my_price">
+         <view class="my_title">我的订单</view>
+         <view class="my_tops">></view>
+     </view>
+     <view class="my_lists">
+            <view class="good">
+                 <view class="iconfont icon-qicheqianlian- goods"></view>
+                 <view class="pool">待付款</view>
+            </view>
+            <view class="good">
+                 <view class="iconfont icon-qicheqianlian- goods"></view>
+                 <view class="pool">待发货</view>
+            </view>
+            <view class="good">
+                 <view class="iconfont icon-qicheqianlian- goods"></view>
+                 <view class="pool">待收货</view>
+            </view>
+            <view class="good">
+                 <view class="iconfont icon-qicheqianlian- goods"></view>
+                 <view class="pool">待评价</view>
+            </view>
+            <view class="good">
+                 <view class="iconfont icon-qicheqianlian- goods"></view>
+                 <view class="pool">售后</view>
+            </view>
+             <!-- <view class="iconfont icon-qicheqianlian- goods"></view>
+             <view class="iconfont icon-qicheqianlian- goods"></view>
+             <view class="iconfont icon-qicheqianlian- goods"></view> -->
+     </view>
+     <view class="my_price">
+         <view class="my_title">优惠买单</view>
+         <view class="my_tops">></view>
+     </view>
+      <view class="my_price">
+         <view class="my_title">资金明细</view>
+         <view class="my_tops">></view>
+     </view>
+      <view class="my_price">
+         <view class="my_title">申请发票</view>
+         <view class="my_tops">></view>
+     </view>
+      <view class="my_price">
+         <view class="my_title">发票记录</view>
+         <view class="my_tops">></view>
+     </view>
+      <view class="my_price">
+         <view class="my_title">收货地址</view>
+         <view class="my_tops">></view>
+     </view>
+      <view class="my_price">
+         <view class="my_title">领劵中心</view>
+         <view class="my_tops">></view>
+     </view>
+      <view class="my_price">
+         <view class="my_title">帮助中心</view>
+         <view class="my_tops">></view>
+     </view>
+      <view class="my_price">
+         <view class="my_title">关于我们</view>
+         <view class="my_tops">></view>
+     </view>
+      <view class="my_price">
+         <view class="my_title">当前版本</view>
+         <view class="my_tops">v1-1-0</view>
+     </view>
+     <view></view>
+ </view>

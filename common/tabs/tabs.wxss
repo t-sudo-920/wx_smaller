@@ -1,0 +1,15 @@
+/* common/tabs/tabs.wxss */
+.title{
+  box-sizing: border-box;
+  padding-left: 18rpx;
+  padding-top: 4rpx;
+  color: red;
+  font-size: 24rpx;
+}
+.name{
+  display: inline-block;
+  margin-right: 50rpx;
+  margin-left: 20rpx;
+  color: yellowgreen;
+  font-size: 36rpx;
+}

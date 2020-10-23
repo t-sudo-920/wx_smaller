@@ -1,0 +1,9 @@
+<!--common/meuns/meuns.wxml-->
+<view class="meun">
+     <view class="meun_list" wx:for="{{imgData}}" wx:key="id">
+         <view class="meun_images"><image class="imager_pic" src="{{item.url}}"></image>
+         <text class="meun_text">{{item.name}}</text>
+         </view>
+         <!-- <image></image> -->
+     </view>
+</view>
